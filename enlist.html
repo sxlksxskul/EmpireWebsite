@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Galactic Empire</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="images/x-icon" href="images/favicon.ico">
+	<script src="https://kit.fontawesome.com/5f4f2bf92d.js" crossorigin="anonymous"></script>
+	<style>
+		body {
+			font-family: "Lato", sans-serif
+		}
+
+		.mySlides {
+			display: none
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Navbar -->
+	<div class="w3-top w3-black w3-center">
+		<div class="w3-bar w3-black w3-card">
+			<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+				href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+					class="fa fa-bars"></i></a>
+			<a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HOME</a>
+			<a href="hack.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">????</a>
+			<a href="ISB.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ISB</a>
+			<a href="enlist.html" class="w3-bar-item w3-button w3-padding-large w3-dark-gray">ENLIST</a>
+			<a href="wanted.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WANTED LIST</a>
+		</div>
+	</div>
+
+	<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+	<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+		<a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+		<a href="hack.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">????</a>
+		<a href="ISB.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ISB</a>
+		<a href="wanted.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WANTED LIST</a>
+	</div>
+
+	<!-- Page content -->
+	<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+		<!-- Automatic Slideshow Images -->
+		<div class="mySlides w3-display-container w3-center w3-mobile w3-animate-opacity w3-mobile">
+			<img src="images/Enlist/enlist.jpg" style="width:100%;">
+		</div>
+		<div class="mySlides w3-display-container w3-center w3-animate-opacity w3-mobile">
+			<img src="images/Enlist/enlist2.jpg" style="width:100%;">
+		</div>
+		<div class="mySlides w3-display-container w3-center w3-animate-opacity w3-mobile">
+			<img src="images/Enlist/Enlist_Today.jpg" style="width:100%;">
+		</div>
+
+		<!-- First Grid -->
+		<div class="w3-row-padding w3-padding-64 w3-container w3-light-gray">
+			<div class="w3-content w3-row">
+				<h1>WE NEED YOUR HELP!</h1>
+				<h5 class="w3-padding-32">Your Empire is looking for more soldiers and you could be our next one! There
+					are multiple branches currently recruiting new soldiers everyday. Each branch is also expanding and
+					looking for more personnel due to the evergrowing Rebellion threat. Help us protect the galaxy and
+					squash these rebel terrorists! Below are some of the branches that may interest you.</h5>
+
+				<!-- First Photo Grid-->
+				<div class="w3-row-padding">
+					<div class="w3-third w3-container w3-margin-bottom">
+						<a href="ISB.html"><img src="images/Enlist/ISBEnlist.jpg" style="width:100%"
+								class="w3-hover-opacity"></a>
+						<div class="w3-container w3-white">
+							<p><b>Imperial Security Bureau</b></p>
+							<p>The Imperial Security Bureau (ISB) was a law enforcement and intelligence agency of the
+								Galactic Empire that was charged with matters of internal state security and ensuring
+								the loyalty of citizens to the Empire. Now accepting non-clones!</p>
+						</div>
+					</div>
+					<div class="w3-third w3-container w3-margin-bottom">
+						<a href="#Lothal"><img src="images/Enlist/lothal.jpg" style="width:100%"
+								class="w3-hover-opacity"></a>
+						<div class="w3-container w3-white">
+							<p><b>Imperial Lothal Squadron</b></p>
+							<p>Lothal's government was a government that existed on the Outer Rim world of Lothal prior
+								to the rise of the Galactic Empire and during its reign. It included a senate that
+								gathered in the Lothal City Capitol Building.</p>
+						</div>
+					</div>
+					<div class="w3-third w3-container">
+						<a href="#navy"><img src="images/Enlist/navy.jpg" style="width:100%"
+								class="w3-hover-opacity"></a>
+						<div class="w3-container w3-white">
+							<p><b>Imperial Navy</b></p>
+							<p>The Imperial Navy, also known as the Imperial Starfleet, was the naval branch of the
+								Galactic Empire's military. Consisting mainly of Star Destroyers and TIE fighters, the
+								Imperial Navy was tasked with maintaining order in the galaxy.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Second Photo Grid-->
+				<div class="w3-row-padding">
+					<div class="w3-third w3-container w3-margin-bottom">
+						<a href="#pilots"><img src="images/Enlist/pilots.jpg" style="width:100%"
+								class="w3-hover-opacity"></a>
+						<div class="w3-container w3-white">
+							<p><b>Imperial Pilots</b></p>
+							<p>Imperial pilots can refer to several types of pilots that served under the Galactic
+								Empire.
+								TIE pilots — pilots that flew TIE/LN starfighters.
+								Shuttle pilots — pilots who flew shuttles like the Lambda-class T-4a shuttle.
+								Vehicle Command Crewers — pilots of land vehicles such as AT-ATs.</p>
+						</div>
+					</div>
+					<div class="w3-third w3-container w3-margin-bottom">
+						<a href="#royalGuard"><img src="images/Enlist/royalGuard.jpg" style="width:100%"
+								class="w3-hover-opacity"></a>
+						<div class="w3-container w3-white">
+							<p><b>Imperial Royal Guard</b></p>
+							<p>The Imperial Royal Guard, also named the Crimson Guard, were the personal bodyguards to
+								the Galactic Emperor. In addition to strict requirements of size, strength,
+								intelligence, and loyalty, only the most skilled soldiers in the Imperial Military
+								qualified for duty in the Royal Guard.</p>
+						</div>
+					</div>
+					<div class="w3-third w3-container">
+						<a href="#scoutCorps"><img src="images/Enlist/scoutTroopCorps.jpg" style="width:100%"
+								class="w3-hover-opacity"></a>
+						<div class="w3-container w3-white">
+							<p><b>Scout Trooper Corps</b></p>
+							<p>The scout trooper corps was a specialized corps of the Imperial Army's Stormtrooper
+								Corps, consisting of scout troopers. The patrol troopers were the urban variant of the
+								scout trooper, and worked with local law enforcement agencies to regulate traffic. The
+								corps predecessor is the clone scout troopers.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="w3-row-padding w3-padding-64 w3-container w3-dark-gray" id="Lothal">
+			<div class="w3-content">
+				<div class="w3-twothird w3-container">
+					<h1>Imperial Lothal Squadron</h1>
+					<h5 class="w3-padding-32">After numerous incidents involving rebels (and on some occasions even
+						jedi!!!), we have decided to increase our military presence on Lothal to eradicate these
+						terrorists and bring peace again to the people of this planet.</h5>
+
+					<p>Lothal was a planet in the Outer Rim Territories. During the early years of the Galactic Empire,
+						Lothal was in a state of economic disrepair and invited the Empire to take over the planet's
+						industries, with the promise of prosperity and security. Although many people said the Empire
+						would bring doom, their attempted insurgency failed, while the Lothalites who preached of new
+						jobs and prosperity were vindicated. Amid Lothal's growing strife with the Empire in 5 BBY,
+						however, Lothal became the nesting ground for the Spectres, a small rebel cell which operated
+						from the starship Ghost. After harrying Imperial forces and disrupting Imperial activities for
+						at least a year, the Spectres eventually attracted the attention of Grand Moff Wilhuff Tarkin
+						and Darth Vader, who tried unsuccessfully to stamp out these rebels. Vader even imposed a
+						blockade on the planet, but the Spectres managed to slip through and rejoin the larger
+						rebellion.
+					</p>
+
+					<p>A prison revolt led to the escape of several prisoners, including former Governor Ryder Azadi,
+						who would go on to start another rebel cell on Lothal. The Imperial blockade would come to cause
+						severe hardship and led Princess Leia Organa to undertake a mercy mission to Lothal. However,
+						this mission was a ruse for the Organas to deliver ships to the rebellion. In 2 BBY, the ongoing
+						rebellion led Azadi's successor, Arihnda Pryce, to invite Grand Admiral Thrawn and his Seventh
+						Fleet to establish a presence on Lothal. Ryder's rebel cell's efforts to sabotage Imperial
+						vehicles at the Capital City Imperial Armory Complex drew Thrawn's attention.</p>
+
+					<a href="https://starwars.fandom.com/wiki/Lothal" target="_blank"><button
+							class="w3-button w3-black w3-block w3-margin-bottom">Learn more</button></a>
+				</div>
+			</div>
+			<div class="w3-third w3-container">
+				<img src="images/Enlist/lothal.jpg" style="width: 100%;">
+			</div>
+		</div>
+
+		<div class="w3-row-padding w3-light-gray w3-container w3-padding-64" id="navy">
+			<div class="w3-third w3- container">
+				<img src="images/Enlist/navy.jpg" style="width: 90%;">
+			</div>
+
+			<div class="content">
+				<div class="w3-twothird w3-container">
+					<h1>Imperial Navy</h1>
+					<h5 class="w3-padding-16">The Imperial Navy is currently expanding its forces in order to ensure
+						better protection to Imperial planets due to increase in recent rebel activity. Exceptional
+						applicants will be sent to a top secret space station in order to increase tis security.</h5>
+
+					<p>With the rise of the New Order, the massive military buildup that became synonymous with the late
+						Galactic Republic in an effort to combat the Separatist Alliance in the Clone Wars was continued
+						and expanded in the now Galactic Empire. When the Separatist leadership was executed at Mustafar
+						by the Sith Lord Darth Vader; then Supreme Chancellor Palpatine announced his plans for the
+						galaxy since the beginning. He thus officially wiped away the thousand year old Republic by
+						proclaiming the creation of the Galactic Empire, with himself as its Galactic Emperor.</br>
+
+						After the rise of the New Order, the Imperial Navy was created from the remains of the Republic
+						Navy at the end of the Clone Wars, and inherited its proud naval tradition that dated back
+						thousands of years. It came to have its own starships that patrolled the vast majority of
+						Imperial space throughout the reign of Emperor Palpatine's New Order. After the establishment of
+						the Imperial Navy, it became the primary projection of the Imperial Military's arm, becoming the
+						largest branch in the Armed Forces with its enormous fleet of vessels and millions of personnel.
+					</p>
+
+					<p>Almost immediately, any reminders of the Old Republic were removed, with the Grand Army of the
+						Republic renamed the Imperial Army and Republic Navy reorganized as the Imperial Navy. The
+						distinctive red coloring of Venator-class Star Destroyers were almost immediately painted a more
+						subdued grey, along with the eventual uniform and equipment upgrades for the countless men and
+						women in the Imperial Military. In the days following the proclamation of the New Order, the
+						Imperial Navy would continue to utilize the popular Republic-era Alpha-3 Nimbus-class V-wing
+						starfighters along with the mass produced Aggressive ReConnaissance-170 starfighter, while Lord
+						Vader would receive his own black Eta-2 Actis-class light interceptor until he would eventually
+						pilot his much improved TIE Advanced x1 which first saw usage during the Siege of Lothal four
+						years prior to the Battle of Yavin.</p>
+
+					<a href="https://starwars.fandom.com/wiki/Imperial_Navy" target="_blank"><button
+							class="w3-button w3-gray w3-block" style="width: 60%;">Learn more</button></a>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="w3-row-padding w3-padding-64 w3-container w3-dark-gray" id="pilots">
+			<div class="w3-content">
+				<div class="w3-twothird w3-container">
+					<h1>Imperial Pilots</h1>
+					<h5 class="w3-padding-16">Imperial pilots are always in demand, as they not only operate in space,
+						but also on all Imperial occupated planets. Training for becoming a pilot can be harsh and very
+						strict, but it is all needed to ensure you learn all the right skills.</h5>
+
+					<p>TIE pilots served in the Starfighter Corps of the Imperial Navy by piloting the various TIE
+						Series starfighters. Distinguished by all-black flight suits and bulky, fully enclosed,
+						vacuum-sealed helmets, the Galactic Empire at its height produced millions of TIE pilots and
+						generally considered them expendable assets. The TIE pilots formed the elite of the Imperial
+						Navy's Flight Branch.
+						They were referred to as "bucketheads" by Rebel pilots, due to their bulky helmets. Within the
+						Imperial forces they were often referred to as "coffin jockeys" due to the high mortality rate
+						of those manning the vulnerable TIE fighters, a holdover from the Galactic Republic's use of
+						clones during the Clone Wars prior to the Empire's formation.</p>
+
+					<p>The first generation of TIE pilots was composed of clones, survivors of the clone trooper pilots
+						of the Republic Starfighter Corps from the Clone Wars. This early use of clones was one of the
+						main reasons why TIE pilots were often viewed as expendable and given little protection during
+						combat.
+						Even early into the Empire, however, there were several Imperial officers who campaigned to have
+						the various TIE fighters redesigned to protect the pilots better, largely because non-clone
+						Human pilots from the Imperial Academy began to replace and outnumber the aging clone trooper
+						veterans. However, these were ignored by the Imperial Navy's hierarchy, and notably were
+						dismissed by the pilots themselves. The TIE pilots believed that their lack of protection was a
+						testament to their skills rather than the Empire's view of them as disposable. This notoriously
+						callous treatment of pilots was such that the TIE fighter, in addition to representing the
+						technological might of the Empire, was also symbolic of the Empire's disregard for its own
+						soldiers.</p>
+
+					<a href="https://starwars.fandom.com/wiki/TIE_pilot" target="_blank"><button
+							class="w3-button w3-black w3-block w3-margin-bottom">Learn more</button></a>
+				</div>
+			</div>
+			<div class="w3-third w3-container">
+				<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s time to become the galaxy&#39;s finest. <a href="https://twitter.com/hashtag/StarWarsSquadrons?src=hash&amp;ref_src=twsrc%5Etfw">#StarWarsSquadrons</a> is available now! <a href="https://t.co/a0GZDP6YZP">pic.twitter.com/a0GZDP6YZP</a></p>&mdash; EA Star Wars (@EAStarWars) <a href="https://twitter.com/EAStarWars/status/1312045238203097089?ref_src=twsrc%5Etfw">October 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</div>
+
+		<div class="w3-row-padding w3-light-gray w3-container w3-padding-64" id="royalGuard">
+			<div class="w3-third w3- container">
+				<img src="images/Enlist/royalGuard.jpg" style="width: 90%;">
+			</div>
+
+			<div class="content">
+				<div class="w3-twothird w3-container">
+					<h1>Imperial Royal Guard</h1>
+					<h5 class="w3-padding-16">Do you have what it takes to protect the most important person in this
+						galaxy, our Emperor? If you think you do, why not join his trusted Royal Guards and prove it?
+						Only the best of the best have the honor of holding the title of Crimson Guard. The Emperor
+						himself personally oversees training of this branch.</h5>
+
+					<p>The origins of the crimson-clad Royal Guard dated back to the time of the Separatist Crisis, when
+						Supreme Chancellor Sheev Palpatine crafted an order of protectors, named the Red Guard, that
+						stood apart from the cerulean-clad Senate Guard during the Galactic Republic's twilight. Over
+						the course of the Clone Wars, the Red Guard gradually supplanted the Senate Guard and its elite
+						sub-unit, the Senate Commandos, as the chancellor's bodyguards. By the end of the Clone Wars,
+						Palpatine proclaimed himself Emperor of the Galactic Empire. As a result, Senate Guards were
+						completely phased out of service and replaced by the chancellor's Red Guards, who were
+						henceforth known as the Royal Guard. </br>
+						Emperor Palpatine sealed himself away from the populace throughout his reign. On the rare
+						occasions of his public appearances, he was always accompanied by members of the Royal Guard. In
+						the decades that followed Palpatine's death and the subsequent fall of the Empire at the Battle
+						of Jakku, a new order of protectors was crafted by Supreme Leader Snoke of the First Order.
+						Modeled on the Emperor's Royal Guard, the Elite Praetorian Guard consisted of eight warriors who
+						wore ornate crimson armor, wielded an array of melee weapons, and specialized in martial arts,
+						such as Teräs Käsi. Likewise, the reborn Emperor Palpatine revived his employment of
+						crimson-clad guardsmen through the Sovereign Protectors, selected from the finest Sith troopers
+						the Sith Eternal had readied.</p>
+
+					<p>The Emperor's Royal Guards were reputedly the most skilled warriors in the forces of the Galactic
+						Empire; out of millions of soldiers, Emperor Palpatine's guards were unsurpassed in skill and
+						status. During the era of the Empire, the Royal Guard consisted of conscripts and at least one
+						clone trooper. The qualifications for joining the Guard's ranks included strength, intelligence,
+						and loyalty. Candidates for the Guard had to meet the basic height requirement of 1.83 meters.
+					</p>
+
+					<a href="https://starwars.fandom.com/wiki/Emperor%27s_Royal_Guard" target="_blank"><button
+							class="w3-button w3-gray w3-block" style="width: 60%;">Learn more</button></a>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="w3-row-padding w3-padding-64 w3-container w3-dark-gray" id="scoutCorps">
+			<div class="w3-content">
+				<div class="w3-twothird w3-container">
+					<h1>Scout Trooper Corps</h1>
+					<h5 class="w3-padding-16">The scout trooper corps are currently recruiting new soldiers to serve on
+						the planet of Endor. We have great interest inn this planet and need your help in order to
+						ensure its security!</h5>
+
+					<p>
+						Succeeding the clone scout troopers of the Galactic Republic, scout troopers served as a
+						reconnaissance force for the Galactic Empire. They were trained for more independence and
+						adaptability than other Imperial troops. Scout troopers were often stationed at Imperial bases,
+						cities, planets, and other points of interest. A famous example is the Death Star's shield
+						generator on Endor. Utilizing speeder bikes, scout troopers patrolled Imperial areas,
+						maintaining law and order and looking out for possible attackers. This is how they get their
+						nickname of "biker scouts." Scout troopers may also be seen patrolling areas on foot, as seen on
+						planets like Endor and Vardos.</p>
+
+					<p>Scout troopers fulfilled their reconnaissance role in other ways as well. They were often sent to
+						scout out enemies during a battle to gain information to report back to their commander.
+						Similarly, they may be sent on a reconnaissance mission to gain information on an individual or
+						group when there isn't a current battle going on. Scout troopers also may be tasked with an
+						espionage mission, getting behind enemy lines and gaining secret information. All three of these
+						types of reconnaissance missions may be long term. Also within their ranks were the sniper
+						troopers, who utilized long range rifles for a wide variety of missions. Sniper troopers may
+						provide long range cover for stormtroopers during a mission. Sniper troopers may also be sent on
+						similar reconnaissance missions, so if necessary, they can take out key targets from a distance.
+					</p>
+
+					<a href="https://starwars.fandom.com/wiki/Scout_trooper" target="_blank"><button
+							class="w3-button w3-black w3-block w3-margin-bottom">Learn more</button></a>
+				</div>
+			</div>
+			<div class="w3-third w3-container">
+				<img src="images/Enlist/scoutTroopCorps.jpg" style="width: 100%;">
+			</div>
+		</div>
+
+				<div class="w3-row w3-padding-32 w3-light-gray">
+					<div class="w3-third w3-container">
+						<div class="w3-card-4">
+							<img src="images/Enlist/rebuild.jpg" style="width:100%;">
+						</div>
+					</div>
+
+					<div class="w3-third w3-container">
+						<div class="w3-card-4">
+							<img src="images/Enlist/scarif.jpg" style="width:100%;">
+						</div>
+					</div>
+
+					<div class="w3-third w3-margin-bottom w3-container">
+						<div class="w3-card-4 w3-light-gray">
+							<img src="images/Enlist/looseLips.jpg" style="width:100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="w3-container w3-padding-16 w3-black w3-xlarge">
+		<img src="images/Home/logoWhite.jpg" class="w3-left w3-margin-left" style="height: 80px;">
+		<h1 class="w3-center w3-margin-right">LONG LIVE THE EMPIRE!</h1>
+	</footer>
+
+	<script>
+		// Automatic Slideshow - change image every 4 seconds
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			myIndex++;
+			if (myIndex > x.length) { myIndex = 1 }
+			x[myIndex - 1].style.display = "block";
+			setTimeout(carousel, 4000);
+		}
+
+		// Used to toggle the menu on small screens when clicking on the menu button
+		function myFunction() {
+			var x = document.getElementById("navDemo");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else {
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		var modal = document.getElementById('ticketModal');
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+
+</body>
+
+</html>
